@@ -1,0 +1,77 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2196f3; /* Change to light blue */
+}
+
+/* Input and select styling */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Radio button group styling */
+.radio-group {
+  display: flex;
+  gap: 15px; /* Increased gap for better spacing */
+  margin-top: 5px;
+}
+
+/* Radio button label styling */
+.radio-group label {
+  display: flex;
+  align-items: center; /* Aligns the text vertically with the radio button */
+  color: #2196f3; /* Light blue color for radio button text */
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #2196f3; /* Original green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e66a7;
+}
+
+/* Prediction result styling */
+.prediction {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
